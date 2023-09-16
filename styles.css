@@ -1,0 +1,127 @@
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  color: #1877f2;
+  margin-bottom: 0;
+  font-family: inherit;
+  font-size: 60px;
+}
+
+h4 {
+  margin-top: 0;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+}
+
+b:hover {
+  text-decoration: underline;
+}
+
+.createPageFooter {
+  color: black;
+  padding: 25px 0;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 769px) {
+  .signUpDiv {
+    display: flex;
+    gap: 50px;
+    margin: 130px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .signUpDiv {
+    margin: 0 100px;
+  }
+}
+
+.textDiv {
+  font-size: xx-large;
+}
+
+.formDiv {
+  background-color: white;
+  padding: 10px;
+  height: 350px;
+  width: 400px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 5px 5px 30px rgb(212, 211, 211);
+}
+
+input {
+  width: 350px;
+  height: 30px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: medium;
+  font-weight: 200;
+  border-width: thin;
+  border-color: #dadde1;
+}
+
+.loginBtn {
+  width: 370px;
+  height: 50px;
+  padding: 10px;
+  margin: 12px auto 0;
+  border-radius: 5px;
+  background-color: #1877f2;
+  font-size: larger;
+  font-weight: 600;
+  border: none;
+  color: white;
+}
+
+a:hover {
+  color: #1877f2;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.forgottenPwd {
+  color: #1877f2;
+  font-size: large;
+  margin: 0 10 10 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.createNewAccount:hover {
+  background-color: #287918;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+.createNewAccount {
+  background-color: #42b72a;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: 600;
+  border: none;
+  margin: 10px;
+}
+
+hr {
+  color: #dadde1;
+}
+
+.footer {
+  text-decoration: none;
+  font-size: 12px;
+}
